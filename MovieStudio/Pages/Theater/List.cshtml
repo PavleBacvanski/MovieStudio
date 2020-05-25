@@ -1,0 +1,44 @@
+﻿@page
+@model MovieStudio.Pages.Theater.ListModel 
+@{
+}
+
+<h1>Theaters</h1>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-append">
+                <button class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach(var t in Model.Theaters)
+    {
+        <tr>
+            <td>@t.Name</td>
+            <td>@t.Adress</td>
+            <td>@t.Performance</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Detail" asp-route-theaterId="@t.Id">
+                    <i class="fas fa-search-plus"></i>
+                </a>
+                <a class="btn btn-lg" asp-page="./Edit" asp-route-theaterId="@t.Id">
+                    <i class="fas fa-edit"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a asp-page=".\Edit" class="btn btn-secondary">Add New</a>
+
+<div>@Model.Message</div>

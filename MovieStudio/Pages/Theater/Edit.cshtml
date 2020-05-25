@@ -1,0 +1,30 @@
+﻿@page "{theaterID:int?}"
+
+@model MovieStudio.Pages.Theater.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit @Model.Theaters.Name</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Theaters.Id" />
+    <div class="form-group">
+        <label asp-for="Theaters.Name"></label>
+        <input asp-for="Theaters.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Theaters.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Theaters.Adress"></label>
+        <input asp-for="Theaters.Adress" class="form-control" />
+        <span class="text-danger" asp-validation-for="Theaters.Adress"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Theaters.Performance"></label>
+        <select class="form-control" asp-for="Theaters.Performance" asp-items="Model.Performances">
+        </select>
+        <span class="text-danger" asp-validation-for="Theaters.Performance"></span>
+    </div>
+
+    <button type="submit" class="btn btn-secondary">Save</button>
+</form>

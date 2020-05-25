@@ -1,0 +1,8 @@
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\bin\Debug\netcoreapp3.0\MovieStudio.Core.deps.json
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\bin\Debug\netcoreapp3.0\MovieStudio.Core.dll
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\bin\Debug\netcoreapp3.0\MovieStudio.Core.pdb
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\obj\Debug\netcoreapp3.0\MovieStudio.Core.AssemblyInfoInputs.cache
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\obj\Debug\netcoreapp3.0\MovieStudio.Core.AssemblyInfo.cs
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\obj\Debug\netcoreapp3.0\MovieStudio.Core.dll
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\obj\Debug\netcoreapp3.0\MovieStudio.Core.pdb
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Core\obj\Debug\netcoreapp3.0\MovieStudio.Core.csprojAssemblyReference.cache

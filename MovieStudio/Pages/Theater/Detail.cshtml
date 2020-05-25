@@ -1,0 +1,29 @@
+﻿@page "{theaterId:int}"
+
+@model MovieStudio.Pages.Theater.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>@Model.Theaters.Name</h1>
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-info">
+        @Model.Message
+
+</div>
+}
+
+<div>
+    Id: @Model.Theaters.Id
+</div>
+<div>
+    Address: @Model.Theaters.Adress
+</div>
+<div>
+    Performance: @Model.Theaters.Performance
+</div>
+
+
+<a asp-page="./List" class="btn btn-secondary">All Theaters</a>

@@ -1,0 +1,13 @@
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Data.deps.json
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Data.dll
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Data.pdb
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Core.dll
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Core.pdb
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.csprojAssemblyReference.cache
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.AssemblyInfoInputs.cache
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.AssemblyInfo.cs
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.csproj.CopyComplete
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.dll
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\obj\Debug\netcoreapp3.0\MovieStudio.Data.pdb
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Data.runtimeconfig.json
+C:\Users\Aorus Pro\source\repos\MovieStudio\MovieStudio.Data\bin\Debug\netcoreapp3.0\MovieStudio.Data.runtimeconfig.dev.json
